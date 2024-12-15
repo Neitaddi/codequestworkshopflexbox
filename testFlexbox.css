@@ -1,0 +1,51 @@
+/* * {
+  background-color: red;
+} */
+
+.room {
+  border-style: groove;
+  border-color: black;
+  background-color: aquamarine;
+
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap-reverse; */
+  /* order: 2; */
+  flex-flow: row wrap;
+  /* justify-content: space-between; */
+  align-items: center;
+  align-content: center;
+  height: 600px;
+  gap: 100px;
+}
+.bureau,
+.armoire,
+.lit {
+  border-style: dashed;
+  border-color: black;
+  background-color: yellow;
+  padding: 50px;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  height: 30px;
+  width: 30px;
+  font-size: 50px;
+}
+.armoire {
+  height: 100px;
+}
+
+/* .table {
+  display: table;
+}
+.rows {
+  display: table-row;
+  background-color: blueviolet;
+}
+.column {
+  display: table-cell;
+  height: 50px;
+  width: 50px;
+  background-color: brown;
+  border: solid white;
+} */
